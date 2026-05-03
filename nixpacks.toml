@@ -1,0 +1,20 @@
+[phases.setup]
+nixPkgs = ["nodejs_20"]
+
+[phases.install]
+cmds = [
+  "npm install",
+  "cd frontend && npm install",
+  "cd backend && npm install"
+]
+
+[phases.build]
+cmds = [
+  "cd frontend && npm run build",
+  "cd backend && npx prisma generate",
+  "cd backend && npx prisma db push",
+  "cd backend && node src/utils/seed.js"
+]
+
+[start]
+cmd = "cd backend && node src/index.js"
