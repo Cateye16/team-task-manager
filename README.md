@@ -3,7 +3,7 @@
 A full-stack web application for managing projects, assigning tasks, and tracking progress with role-based access control.
 
 **Live URL:** *https://team-task-manager-production-d07b.up.railway.app/*  
-**Demo Video:** *[Add your Loom/YouTube link]*
+**Demo Video:** *https://drive.google.com/file/d/1q08qnicKfAg_QpGNfjbFJgZOF5GaeeAZ/view?usp=sharing*
 
 ---
 
